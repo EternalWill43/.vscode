@@ -1,0 +1,23 @@
+{
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "editor.formatOnSave": true,
+    "workbench.colorTheme": "Catppuccin Frappe Darker",
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "leader",
+                "d"
+            ],
+            "commands": [
+                "editor.action.showHover"
+            ],
+            "when": "editorTextFocus"
+        }
+    ],
+    "vim.leader": " "
+}
